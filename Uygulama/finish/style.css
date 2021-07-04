@@ -1,0 +1,7 @@
+li{
+
+    text-decoration:line-through; /* üstünü çizer */
+
+    list-style-type: none;   /* her bir liste elemanının liste işareti kaldırıldı */
+}
+
