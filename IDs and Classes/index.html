@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IDs and Classes</title>
+</head>
+<style>
+
+    p{
+        /*color: red  red'i yorum satırına alırız*/;
+        font-size: 20px;
+    }
+
+    .red{
+        color: red;
+    }
+    .blue{
+        color: blue;/* red çalışmaz ama blue p etiketi içinde tanımladığımız için çalışır*/
+    }
+    .f22{
+        font-size: 22px !important /* dersek en baskın size olacak*/    ;
+    }
+    .f30
+    {
+        font-size: 30px;
+    }
+       
+     p{
+         color: yellow;
+     }
+
+#1{
+    size: 100px;
+}
+#paragraph{
+    border: 1px solid red;
+}
+
+</style>
+
+
+
+<body>
+    
+<p class="blue 20px">My Website</p>
+<p class="red 30px">My Website</p>
+<p>My Website</p>
+<p>My Website</p>
+<p id="1">Lorem ipsum dolor sit amet.</p>
+<p>Lorem ipsum dolor sit amet.</p>
+<p id="paragraph">Lorem ipsum dolor sit amet.</p>
+
+
+</body>
+</html>
