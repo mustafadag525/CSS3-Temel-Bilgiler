@@ -1,0 +1,20 @@
+
+/* *{  * karekteri tüm elemanları seçer bütün etiketleri kapsar
+    border: 1px solid blue;
+} */
+/*
+p{
+    border: 1px solid blue; sadece p etiketleri seçilir
+}*/
+/*
+div p{
+    border: 1px solid blue div altındaki tüm p etiketleri seçilir;
+}*/
+
+.container div{
+    border: solid blue  conntainer altındaki divler;
+}
+
+div,p{
+    bütün divler ve bütün p etiketleri
+}
